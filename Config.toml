@@ -1,0 +1,19 @@
+
+# Configuration file for "customer_support_agent"
+# 
+# This file contains configuration values for configurable variables in your Ballerina code.
+# Both package-specific and imported module configurations are included below.
+# 
+# Learn more about configurable variables:
+# https://ballerina.io/learn/provide-values-to-configurable-variables/#provide-via-toml-syntax
+#
+# Note: This file is automatically added to .gitignore to protect sensitive information. 
+
+serviceUrl = "https://ballerina-ai-eastus.openai.azure.com/openai"	# Type of STRING
+
+apiVersion = "2023-07-01-preview"	# Type of STRING
+
+deploymentId = "gpt4o"	# Type of STRING
+
+apiKey = "c870e424bc5a4718912102acbe1f34f8"	# Type of STRING
+
