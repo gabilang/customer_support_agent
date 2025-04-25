@@ -5,7 +5,7 @@ final agent:Agent _customer_support_agentAgent = check new (
     systemPrompt = {
         role: "Customer Support Assistant",
         instructions: string `\\\"You are a helpful customer support assistant for a tech company. Answer customer questions about our products. \\\" +
-\\\"Use the tools to check product information and availability.\\\"`
+\\\"Use the tools to check product information and availability of them.\\\"`
     }, model = _customer_support_agentModel, tools = [productInfo, availability]
 );
 
